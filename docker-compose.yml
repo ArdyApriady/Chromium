@@ -2,7 +2,7 @@ version: '3.8'
 services:
   chromium:
     image: lscr.io/linuxserver/chromium:latest
-    container_name: DK_browser
+    container_name: chromium_by_ardy
     privileged: true
     environment:
       - TITLE=ChromeDePin
